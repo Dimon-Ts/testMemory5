@@ -79,7 +79,6 @@ public class Main {
         if ( clientOS == 1 ) {
             System.out.println("Установите версию приложения для Android по ссылке!");} else {
             System.out.println("Установите версию приложения для iOS по ссылке!");}
-        System.out.println("Hello Russia!Hello China!Hello world!");
         //Задание 2
         //К нам пришли коллеги и сообщили, что нам нужно знать не только операционную систему телефона,
         // но и год его создания: от этого зависит, подойдет ли приложение для телефона или оно просто
@@ -109,7 +108,6 @@ public class Main {
             System.out.println("Установите облегчённую версию для Android поссылке!");}
         else if ( clientOSVer == 0 && clientOSYear < 2015 ) {
             System.out.println("Установите облегчённую версию для iOS по ссылке!");}
-        System.out.println("Hello Russia!Hello China!Hello world!");
         //Задание 3
         //Напишите программу, которая определяет, является ли год високосным или нет.
         //Переменную года назовите year, в которую можно подставить значение интересующего нас года.
@@ -150,7 +148,7 @@ public class Main {
         //Для написания программы используйте оператор switch. Для обозначения номера месяца используйте
         // переменную monthNumber = 12.
         //Пропишите условие, при котором программа не будет выполняться (номер месяца больше 13).
-        int monthNumber = 129;
+        int monthNumber = 12;
         switch ( monthNumber ) {
             case 12:
             case 1:
@@ -175,6 +173,6 @@ public class Main {
             default:
                 System.out.println("Такого месяца не существует!");
         }
-
+        System.out.println("Hello Russia!Hello China!Hello world!");
     }
 }
